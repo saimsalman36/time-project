@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <title>TIMEWASTE TIMER</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/twt.css">
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="popup.js"></script>
+
+    <link rel="shortcut icon" href="i/favicon.ico">
+</head>
+<body>
+<div class="popup auth">
+    <header class="popup-header">
+        <img src="i/logo.png" alt="" class="logo" width="146" height="125">
+        <h1><span>Timewaste Timer</span></h1>
+        <p>Please sign in to continue</p>
+    </header>
+    <div class="popup-content">
+        <a href="https://timewaste.prettymind.co/auth/google" target="_blank" class="btn">Sign in with <b>Google</b></a>
+        <a href="https://timewaste.prettymind.co/auth/facebook" target="_blank" class="btn">Sign in with <b>Facebook</b></a>
+        <span class="btn-info">(if you still have an active account)</span>
+    </div>
+</div>
+
+<div class="popup post-install">
+    <header class="popup-header">
+        <img src="i/logo.png" alt="" class="logo">
+        <h1><span>Timewaste Timer</span></h1>
+        <p>Thank you for installing our product</p>
+    </header>
+    <div class="popup-content">
+        <p>You need to put $5 on your Timewasting Deposit <br>Account to try not to use Facebook for more than 1h/day.</p>
+        <p class="btns"><a href="https://timewaste.prettymind.co/payment" target="_blank" class="btn">Put $5 on your deposit</a></p>
+    </div>
+</div>
+
+<div class="popup remaining">
+    <header class="popup-header">
+        <img src="i/logo.png" alt="" class="logo">
+        <p class="popup-alert success">
+            <span>You’ve wasted less than 1 hour</span>
+            on Facebook today
+        </p>
+    </header>
+    <div class="popup-content">
+        <p class="important">You have <span class="remaining-time">60 minutes</span> remaining. <br>
+            Keep on it and you will not be charged for $1 today.</p>
+        <p>You still have <span class="balance">$16</span> on your account to fight your <br>digital media addiction.</p>
+    </div>
+</div>
+
+<div class="popup one-buck">
+    <header class="popup-header">
+        <img src="i/logo.png" alt="" class="logo">
+        <p class="popup-alert warning">
+            <span>You’ve wasted more than 1 hour</span>
+            on Facebook today
+        </p>
+    </header>
+    <div class="popup-content">
+        <p class="important">Your Timewasting Deposit Account <br><span class="will-was">will be</span> charged for $1 today</p>
+        <p>You still have <span class="balance">$16</span> on your account to fight your <br>digital media addiction.</p>
+    </div>
+</div>
+
+<div class="popup wasted">
+    <header class="popup-header">
+        <img src="i/logo.png" alt="" class="logo">
+        <p class="popup-alert info">
+            <span>You’ve wasted all your tries!</span>
+        </p>
+    </header>
+    <div class="popup-content">
+        <p class="important">Your Timewasting Deposit Account is empty.</p>
+        <p>You need to put another $5 on your <br>Timewasting Deposit Account to try <br>not to use Facebook for more than 1 hour/day.</p>
+        <p class="btns"><a href="https://timewaste.prettymind.co/payment" target="_blank" class="btn">Put $5 on your deposit</a></p>
+    </div>
+</div>
+</body>
+</html>

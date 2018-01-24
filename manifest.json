@@ -1,0 +1,37 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+  "manifest_version": 2,
+  "name": "Timewaste Timer",
+  "version": "0.0.10",
+
+  "description": "Punish yourself for wasting your life on Facebook. Take control on your addiction or pay a fee for the lack of self-awareness.",
+
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "i/16_na.png"
+  },
+
+  "icons": {
+    "16": "i/16_ok.png",
+    "48": "i/48x48.png",
+    "128": "i/128x128.png"
+  },
+
+  "background": {
+    "scripts": [
+      "js/jquery.min.js",
+      "js/eventemitter.min.js",
+      "js/config.js",
+      "js/activity-monitor.js",
+      "js/activity-reporter.js",
+      "background.js"],
+    "persistent": true
+  },
+
+  "permissions": [
+    "idle",
+    "tabs",
+    "<all_urls>"
+  ]
+}
